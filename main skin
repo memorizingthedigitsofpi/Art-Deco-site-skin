@@ -1,0 +1,376 @@
+
+
+#header {
+  background-image: url("https://i.imgur.com/MEXgrDx.png");
+  background-repeat: repeat;
+}
+
+#header .heading {
+  height: 12em;
+}
+
+#header .logo,
+#header h1 sup {
+  display: none;
+}
+
+#header .heading a {
+  padding-left: 1em;
+  font-variant: small-caps;
+  color: #a6894b;
+}
+
+#greeting .icon img {
+  box-shadow: none;
+  border: 1px solid #fff;
+  border-radius: 90%;
+}
+
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a,
+#greeting li a {
+  font-variant: small-caps;
+  color: #a6894b !important;
+  background: #f7f2e9 !important;
+  border: none;
+  box-shadow: none;
+}
+
+#greeting .dropdown .menu a:hover,
+#greeting li a:hover,
+a.tag:hover {
+  background: #c8d0c1 !important;
+  color: #fff;
+}
+
+#greeting .menu {
+  width: 12em;
+}
+
+#header .menu {
+  background: #f7f2e9;
+  box-shadow: none;
+  width: 20em;
+}
+
+#header .primary li:not(.search),
+#greeting li {
+  border: none;
+}
+
+#header #search {
+  display: none;
+}
+
+#header .primary {
+  background: #c8d0c1;
+  box-shadow: none;
+  border-bottom: 5px solid #d5b56e;
+  border-top: 5px solid #d5b56e;
+}
+
+#header .dropdown .menu li:hover a,
+#header .primary li a {
+  font-variant: small-caps;
+  color: #f7f2e9 !important;
+  background: #d5b56e;
+  border: none;
+  box-shadow: none;
+}
+
+#header .dropdown:hover a,
+#header .primary li:not(.search) {
+  background: #a5b399;
+}
+
+#outer.wrapper {
+  background: #f7f2e9;
+}
+
+.actions a,
+.action,
+input[type="file"],
+.actions input,
+input[type="submit"],
+button,
+.actions label,
+#main .actions a,
+#main .actions a:visited,
+#main .action,
+#main .actions input,
+#main input[type="submit"],
+#main button,
+#main .actions label {
+  background: #d5b56e;
+  font-variant: small-caps;
+  color: #fff;
+  border: none;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  background: #f7f2e9;
+  border: 1px solid #d5b56e;
+  color: #a6894b !important;
+  font-variant: small-caps;
+}
+
+.required .autocomplete,
+p.notice,
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #c8d0c1;
+}
+
+.current,
+#dashboard .current,
+#main .current {
+  background: #a5b399;
+  color: #fff;
+  font-variant: small-caps;
+  border: none;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+#dashboard .actions a:hover,
+#dashboard .actions a:focus,
+#main .actions a:hover,
+#main input[type="submit"]:hover,
+#main button:hover .actions label:hover,
+#main .action:hover {
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  background: #f7f2e9;
+  color: #a5b399;
+  font-weight: bold;
+}
+
+#main a {
+  color: #a6894b;
+}
+
+#main a:visited {
+  color: #76826c;
+}
+
+a.tag:visited {
+  color: #a6894b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-variant: small-caps;
+  color: #d5b56e;
+}
+
+.splash .module h3 {
+  color: #a5b399;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: none;
+}
+
+fieldset {
+  background-image: url("https://i.imgur.com/MEXgrDx.png");
+  background-repeat: repeat;
+  border: 2px solid #d5b56e;
+  box-shadow: none;
+}
+
+fieldset dl,
+fieldset fieldset {
+  background: #f7f2e9;
+  color: #a6894b !important;
+  font-variant: small-caps;
+  border: 2px solid #d5b56e;
+  box-shadow: none;
+}
+
+input,
+textarea {
+  background: #f7f2e9;
+  border: 2px solid #d5b56e;
+  box-shadow: none;
+}
+
+span.question {
+  background: #d5b56e;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #f7f2e9;
+  border: 2px solid #d5b56e;
+  color: #a6894b;
+  font-variant: small-caps;
+  box-shadow: none;
+}
+
+select {
+  background: #f7f2e9;
+  border: 1px solid #d5b56e;
+}
+
+#modal {
+  border: 5px solid #d5b56e;
+  background: #f7f2e9;
+  color: #76826c;
+}
+
+#modal .footer .action.modal-closer {
+  background: #d5b56e;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #d5b56e;
+  border: 2px solid #d5b56e;
+  font-variant: small-caps;
+}
+
+.listbox > .heading,
+.listbox > .heading a {
+  color: #fff !important;
+}
+
+.listbox > .heading a:visited {
+  color: #76826c;
+}
+
+.listbox .index {
+  background: #f7f2e9;
+  box-shadow: none;
+}
+
+.listbox li.blurb {
+  border: none;
+}
+
+li.blurb {
+  border: 2px solid #d5b56e;
+}
+
+li.relationships a,
+.work .relationship a.tag {
+  background: none;
+}
+
+ol.index.group {
+  background: #f7f2e9;
+}
+
+div.comment,
+li.comment {
+  border: 2px solid #d5b56e;
+}
+
+.comment div.icon {
+  border: none;
+}
+
+.comment h4.byline,
+.comment h4.byline a {
+  background: #d5b56e;
+  color: #fff !important;
+}
+
+.unread,
+.thread .even,
+.statistics .index li:nth-of-type(2n) {
+  background: #c8d0c1;
+}
+
+span.unread {
+  background: #f7f2e9;
+  color: #a6894b;
+  border: 2px solid #d5b56e;
+}
+
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.index .skins .icon,
+.skins .primary .icon,
+.index .mystery .icon,
+.index .tag .icon,
+.index .tagset .icon,
+.abbreviated .icon .anonymous,
+.abbreviated .icon .visitor {
+  background: url("https://i.imgur.com/rdqdtqz.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #d5b56e;
+}
+
+a img {
+  border-radius: 95%;
+  border: 2px solid #fff;
+}
+
+p.kudos {
+  background: url("https://i.imgur.com/7wX03zP.png") no-repeat;
+}
+
+p.kudos {
+  color: #a6894b !important;
+}
+
+#dashboard.own {
+  background-image: url("https://i.imgur.com/MEXgrDx.png");
+  border: 2px solid #d5b56e;
+}
+
+#dashboard ul {
+  border: none;
+}
+
+#main.errors,
+#main.error-502,
+#main.error-503-maintenance {
+  background: url("https://i.imgur.com/FxUVd04.png") center right no-repeat;
+}
+
+#footer {
+  border-top: 5px solid #d5b56e;
+}
+
+#footer.region {
+  background: #c8d0c1;
+}
+
+#footer h4.heading {
+  color: #fff;
+  font-variant: small-caps;
+  font-size: 120%;
+}
+
+#footer,
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #fff;
+  background: #d5b56e;
+}
